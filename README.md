@@ -7,7 +7,7 @@ This repository contains the deliverables for my Six Sigma Green Belt Capstone P
 - **WindshieldData.xlsx**: Dataset for 60 vehicles (960 gap measurements), with VBA code for data generation.
 - **WindshieldAnalysis.mpx**: Minitab project file with statistical analyses (Pareto, control charts, ANOVA, chi-square).
 - **Figures/**: Minitab output images (e.g., Figure1_BoxPlot.png, Figure25_pChart.png).
-- **GenerateWindshieldData.vb**: VBA code for data simulation.
+- **GenerateWindshieldData.vb**: VBA code to generate the dataset, simulating 60 vehicles with 16 gap measurements each, with higher defects at G5–G8 (RH side A-pillar).
 - **SIPOC.png**: SIPOC diagram for the glazing cell process.
 
 ## Instructions
