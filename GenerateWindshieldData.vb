@@ -26,7 +26,7 @@ Sub GenerateWindshieldData()
             Dim baseMean As Double, baseStd As Double
             ' Set base mean and std dev for G5–G8 (higher defects) vs others
             If j >= 9 And j <= 12 Then ' G5–G8 (columns I–L)
-                baseMean = 4.8 ' Matches your data (~4.0–4.2mm)
+                baseMean = 4.8 ' Matches your data (~4.8mm)
                 baseStd = 0.6 ' Higher variability
             Else ' G1–G4, G9–G16
                 baseMean = 3.5 ' Matches your data (~3.2–3.3mm)
