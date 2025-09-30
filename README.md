@@ -1,20 +1,20 @@
-# Six Sigma Green Belt Capstone Project: Windshield Fitment
+# Six Sigma Green Belt Capstone Project: Improving Windshield Fitment
 
-This repository contains the deliverables for my Six Sigma Green Belt Capstone Project, submitted for Kennesaw State University’s certification via Coursera. The project applies DMAIC methodology to reduce windshield-to-A-pillar gaps on the right-hand side in a simulated automotive manufacturing process, targeting a 30.2% non-conformance rate (gaps >4mm, ~3.88mm average) to ≤2% (20,000 PPM) and Cp ≥1.33.
+This repository contains the deliverables for my Kennesaw State University Six Sigma Green Belt Capstone Project via Coursera. The project applies DMAIC to reduce windshield-to-A-pillar gap non-conformance from 30.2% (~3.88mm mean, 290/960 measurements) to ≤2% (20,000 PPM), focusing on RH side A-pillar (G5–G8, 74.8% defects) using suction cup installation.
 
 ## Files
-- **WindshieldFitmentCapstone.pdf**: Full project report, including project charter, data analysis, and improvements.
-- **WindshieldData.xlsx**: Dataset for 60 vehicles (960 gap measurements), with VBA code for data generation.
-- **WindshieldAnalysis.mpx**: Minitab project file with statistical analyses (Pareto, control charts, ANOVA, chi-square).
-- **Figures/**: Minitab output images (e.g., Figure1_BoxPlot.png, Figure25_pChart.png).
-- **GenerateWindshieldData.vb**: VBA code to generate the dataset, simulating 60 vehicles with 16 gap measurements each, with higher defects at G5–G8 (RH side A-pillar).
-- **SIPOC.png**: SIPOC diagram for the glazing cell process.
+- **SixSigmaCapstoneProject.pdf**: Full report with all sections, tables, and figures.
+- **WindshieldFitmentData.xlsm**: Dataset for 60 vehicles (960 measurements, G1–G16 gaps, non-conformance counts).
+- **GenerateWindshieldData.vb**: VBA code to simulate the dataset (Appendix B).
+- **WindshieldAnalysis.mpx**: Minitab project with statistical analyses (ANOVA, chi-square, p-charts).
+- **SIPOC_Diagram.png**: Visual SIPOC diagram (Appendix A).
+- **Figures/**: 31 Minitab visualizations (e.g., Pareto charts, process capability, X-bar/R charts).
 
 ## Instructions
-- Open `WindshieldFitmentCapstone.pdf` for the complete project overview.
-- Use `WindshieldData.xlsx` to view the dataset and run VBA (enable macros).
+- Open `SixSigmaCapstoneProject.pdf` for the complete project overview.
+- Use `WindshieldFitmentData.xlsm` to view the dataset and run VBA (enable macros).
 - Load `WindshieldAnalysis.mpx` in Minitab to explore analyses.
-- Contact: miguelaltuve@gmail.com 
+- Contact: miguelaltuve@gmail.com (or your email).
 
 ## License
 MIT License
