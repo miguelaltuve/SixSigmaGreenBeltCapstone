@@ -1,4 +1,4 @@
-# Six Sigma Green Belt Capstone Project: Improving Windshield Fitment
+# Improving Windshield Fitment on Vehicle: Reducing Non-Conformance on the RH Side A-Pillar
 
 This repository contains the deliverables for my Kennesaw State University Six Sigma Green Belt Capstone Project via Coursera. The project applies DMAIC to reduce windshield-to-A-pillar gap non-conformance from 30.2% (~3.88mm mean, 290/960 measurements) to ≤2% (20,000 PPM), focusing on RH side A-pillar (G5–G8, 74.8% defects) using suction cup installation.
 
